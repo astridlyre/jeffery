@@ -69,13 +69,7 @@ p {
 
 @media screen and (min-width: 1281px) {
   .container {
-    max-width: 75%;
-  }
-}
-
-@media screen and (min-width: 1921px) {
-  .container {
-    max-width: 1800px;
+    max-width: 950px;
   }
 }
 
@@ -127,6 +121,7 @@ p {
 .page-heading {
   margin-top: var(--side-padding);
   padding: 0 var(--side-padding);
+  width: 100%;
 }
 
 .page-heading__heading {
