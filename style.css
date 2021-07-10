@@ -53,6 +53,7 @@ p {
 .container {
   width: 100%;
   margin: 0 auto;
+  padding: 0 var(--side-padding);
 }
 
 @media screen and (min-width: 601px) {
@@ -120,7 +121,6 @@ p {
 
 .page-heading {
   margin-top: var(--side-padding);
-  padding: 0 var(--side-padding);
   width: 100%;
 }
 
@@ -135,7 +135,6 @@ p {
 }
 
 .main {
-  padding: 0 var(--side-padding);
   width: 100%;
 }
 
@@ -163,7 +162,7 @@ p {
 .info {
   margin-top: auto;
   border-radius: var(--radius);
-  padding: var(--side-padding);
+  padding: var(--side-padding) 0;
   width: 100%;
 }
 
@@ -186,7 +185,6 @@ p {
 }
 
 .footer {
-  padding: 0 var(--side-padding);
   margin-bottom: var(--side-padding);
   width: 100%;
   display: flex;
